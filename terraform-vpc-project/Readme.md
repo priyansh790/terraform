@@ -10,6 +10,7 @@ resource:
 7. aws_instance.this
 
 variable:
+```terraform
 1. variable "vpc_parameter" {
   description = "vpc parameters"
   type = map(object({
